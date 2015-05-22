@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>serve web</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Serve</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Mailing List</a></li>
+                    <li><a href="#">on Github</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="jumbotron">
+        <h2 class="animated fadeIn d1">Build fantastic websites with your favorite template languages.</h2>
+        <!-- <p>ERB, Haml, Markdown, Textile, and more!</p>
+        <p>Views, partials & layouts</p>
+        <p>Perfect for Websites or HTML mockups</p> -->
+        <a href="#" class="btn btn-default animated fadeIn d2">Start Now</a>
+        <a href="#" class="btn btn-default animated fadeIn d2">Watch Video</a>
+    </div>
+    <div class="container">
+        <div class="row features">
+            <div class="col-lg-4">
+                <h4>Views, Partials & Layouts</h4>
+                <p>Serve provides the equivalent of the Views part of the Rails MVC. Partials and layouts make it possible to extract common parts of your website into reusable chunks and templates. Use helper methods to simplify complex logic.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Sass & Compass, built in!
+</h4>
+                <p>Manage the chaos of your stylesheets with Sass and Compass! Sass adds features like mixins and variables to CSS. Compass provides a “standard library” of sorts or all manner of CSS wizardry.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Static or dynamic – Your choice
+</h4>
+                <p>Edit and tweak your websites on-the-fly with the Serve server. And when you are ready to deploy, you have two options. Either export to a pure HTML static site or deploy the source on any Ruby-friendly web host.</p>
+            </div>
+        </div>
+        <div class="row features">
+            <div class="col-lg-4">
+                <h4>Great for Rails prototypes
+</h4>
+                <p>If you use a “Design First” workflow for your web apps you can use Serve to build working HTML prototypes (or mockups) of the finished application to test flow and design decisions, before turning it over to the developers.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Serve + Git = The Perfect CMS
+</h4>
+                <p>Since Serve uses plain text files, you can store a project in Git or any other version control system. Combine it with Textile or Markdown and you’ll achieve the perfect Content Management System for developers.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Made with Rack & Tilt
+</h4>
+                <p>Serve uses Rack and Tilt under the covers. Rack makes it possible to combine Serve with Rails or Sinatra. Tilt allows you to use Serve with almost any Ruby-based Template library. ERB, Haml, Slim, Liquid, Markdown, or Textile.</p>
+            </div>
+        </div>
+        <div class="row">
+        <div class="latest_news">
+          <p>Want to get the latest news about Serve? Follow @ServeApp on Twitter.</p>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2011–2015 John W. Long. Serve is open-source software. It is completely free for commercial and non-commercial use. Wanna help?</p>
+    </footer>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function() {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+    </script>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

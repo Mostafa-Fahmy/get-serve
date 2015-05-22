@@ -1,0 +1,150 @@
+$icon-font-path: '../fonts/';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+// bower:scss
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    .navbar-brand {
+        color: #774E17;
+        padding: 20px 25px;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Dancing Script', cursive;
+    }
+    .navbar-nav > li > a {
+        color: #774E17;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 25px;
+        transition: all 0.1s ease-in;
+        &:hover {
+            background: #fcfcfc;
+        }
+    }
+}
+
+.jumbotron {
+    background: #D87924;
+    text-align: center;
+    h2 {
+        text-align: center;
+        color: #fff;
+        width: 70%;
+        margin: auto;
+        font-size: 50px;
+        padding: 30px;
+    }
+    p {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .btn {
+        margin-top: 20px;
+        background-color: transparent;
+        border-color: #fff;
+        border-width: 3px;
+        border-radius: 0px;
+        margin-right: 10px;
+        padding: 10px 40px;
+        color: #fff;
+        font-size: 16px;
+        transition: all 0.1s ease-in;
+        &:hover {
+            background-color: #fff;
+            color: #774E17;
+        }
+    }
+}
+
+.features {
+    .col-lg-4 {
+        padding: 10px 20px;
+        h4 {
+            color: #774E17;
+            font-size: 19px;
+            margin-bottom: 15px;
+            font-weight: 900;
+        }
+        p {
+            line-height: 22px;
+        }
+    }
+}
+
+.latest_news {
+    background: #ebebeb;
+    padding: 20px;
+    margin: 40px 20px;
+    p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    background: #D87924;
+    text-align: center;
+    padding: 25px;
+    p {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 0;
+    }
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.d1 {
+    -webkit-animation-delay: 0.5s;
+    /* Chrome, Safari, Opera */
+    
+    animation-delay: 0.5s;
+}
+
+.d2 {
+    -webkit-animation-delay: 1.5s;
+    /* Chrome, Safari, Opera */
+    
+    animation-delay: 1.5s;
+}
